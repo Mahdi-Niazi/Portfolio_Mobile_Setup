@@ -17,43 +17,34 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
 
-# 📖 [Hello Microver] <a name="about-project"></a>
+# 📖 [Portfolio Mobile Version] <a name="about-project">
+  This is a portfolio website that we share our career growth. 
+  this project talk about my career, experience and education. 
+</a>
 
 
 
-**[Hello Microverse]** is a...
+**[Portfolio Project]** is This mobile version portfolio I have written some basic information about me. 
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">
+vs code - HTML - CSS
+</a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
 
 ### Key Features <a name="key-features"></a>
 
@@ -61,6 +52,7 @@
 - **[Linters]**
 - **[Weblint]**
 - **[Stylelint]**
+- **[Fontawesome]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,14 +68,13 @@
 ### Setup 
 
 1. Download the **Zip** file or clone the repo with:
-```bash git clone git@github.com:Mahdi-Niazi/Project-Week-1.git ``` 
+```bash git clone git@github.com:Mahdi-Niazi/Portfolio_Mobile_Setup.git ``` 
 2. To access cloned directory run: 
-```bash cd Hello_micorverse ``` 
+```bash cd Portfolio_Mobile_Setup ``` 
 3. Open it with the live server 
 
 ### Install 
 
-> To install linters and other project's dependencies run:
 ```bash npm install ``` 
 
 ## Run
@@ -93,8 +84,6 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 ```bash npx hint . ``` 
 2. For tracking linter errors in CSS or SASS files run:
 ```bash npx stylelint "\*_/_.{css,scss}" ``` 
-3. For tracking linter errors in JavaScript files run:
-```bash npx eslint . ``` 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,9 +107,9 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 
 
 
-- [ ] **[Linter]**
-- [ ] **[Webhint]**
-- [ ] **[Stylelint]**
+-  **[Complete Mobile Version]**
+-  **[Complete Desktop Version]**
+-  **[Dynamic the website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,9 +134,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-
-I would like to thank Iqbal Elham who is one my friend
+I would like to thank my partners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
