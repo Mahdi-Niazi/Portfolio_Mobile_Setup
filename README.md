@@ -41,7 +41,7 @@
 **[Portfolio Project]** is This mobile version portfolio I have written some basic information about me. 
 
 ## 🛠 Built With <a name="built-with">
-vs code - HTML - CSS
+**VS Code**    
 </a>
 
 ### Tech Stack <a name="tech-stack"></a>
