@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #3c3a39;
+}
+
+.phone_ico,
+.logo_menu {
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clock,
+.phone_status,
+.logo,
+.burger {
+  margin: 10px;
+  color: #fff;
+}
+
+.burger {
+  position: absolute;
+  right: 25px;
+}
+
+.clock {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14.61px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+  height: 700px;
+}
+
+.name {
+  color: #ff6b00;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: left;
+  margin: 120px 24px 10px;
+}
+
+.slogan {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #fff5e1;
+  margin: 10px 24px;
+}
+
+.desc {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  margin: 10px 24px;
+}
+
+.contact {
+  width: 200px;
+  height: 40px;
+  color: #dbd8d7;
+  font-size: larger;
+  margin: 10px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+
+.contact > i,
+.medium {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+.vector {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  right: 2px;
+  top: 250px;
+}
