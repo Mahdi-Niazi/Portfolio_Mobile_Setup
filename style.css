@@ -48,7 +48,7 @@
 .name {
   color: #ff6b00;
   font-family: 'Crete Round', sans-serif;
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 64px;
   text-align: left;
@@ -57,7 +57,7 @@
 
 .slogan {
   font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 32px;
   color: #fff5e1;
@@ -85,13 +85,6 @@
   padding: 0;
 }
 
-.contact > i,
-.medium {
-  display: flex;
-  flex-direction: row;
-  padding: 8px;
-}
-
 .vector {
   display: flex;
   flex-direction: column;
@@ -100,4 +93,15 @@
   position: absolute;
   right: 2px;
   top: 250px;
+}
+ul{
+  display: flex;
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  color: #dbd8d7;
+  list-style: none;
+  padding: 8px;
 }
