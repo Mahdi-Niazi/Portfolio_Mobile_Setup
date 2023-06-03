@@ -162,7 +162,7 @@
   align-items: center;
 }
 
-.my_recent_work > h1 {
+.my_recent_work > h2 {
   width: 327px;
   height: 83px;
   display: flex;
@@ -350,7 +350,7 @@
   height: 90vh;
 }
 
-.text-about > h1 {
+.text-about > h2 {
   font-family: 'Crete Round', sans-serif;
   font-size: 72px;
   font-weight: 400;
@@ -389,14 +389,16 @@
   margin: 4rem 0;
 }
 
-.langs-1 {
-  list-style-image: url(assets/Rectangle\ 55.png) !important;
+.rect {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.langs-2 {
-  list-style-image: url(assets/Rectangle\ 56.png) !important;
-}
-
-.langs-3 {
-  list-style-image: url(assets/Rectangle\ 57.png) !important;
+.rect > img {
+  position: relative;
+  top: 20px;
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
 }
