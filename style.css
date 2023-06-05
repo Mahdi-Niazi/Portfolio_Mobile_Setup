@@ -255,6 +255,9 @@
 }
 
 .posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 386px;
   width: 327px;
   left: 0;
@@ -293,8 +296,7 @@
 }
 
 .p_p > ul {
-  display: flex;
-  flex-direction: row;
+
   margin: 12px 13px 13px;
 }
 
@@ -303,6 +305,7 @@
   padding: 10px 12px;
   list-style: none;
   margin: 0 12px 0 0;
+  float: left;
 }
 
 .p_p > ul li a {
@@ -315,23 +318,14 @@
   text-decoration: none;
 }
 
-.button_bg {
-  width: 327px;
-  height: 50px;
-  left: 0;
-  top: 0;
-  background: #ff6b00;
-}
 
 .btn {
-  width: 124px;
-  height: 38px;
+  width: 327px;
+  height: 48px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  margin-left: 101.5px;
+  justify-content: center;
+  background-color: #ff6b00;
 }
 
 .about-me {
