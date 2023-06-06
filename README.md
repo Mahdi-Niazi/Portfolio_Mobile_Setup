@@ -97,7 +97,7 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 
 - GitHub: [@Mahdi-Niazi](https://github.com/Mahdi-Niazi)
 - Twitter: [@mahdinazi1](https://twitter.com/mahdiniazi1)
-- LinkedIn: [Mohammad Mahdi Niazi](https://linkedin.com/in/mohammad-mahdi-niazi)
+- LinkedIn: [Mohammad Mahdi Niazi](https://www.linkedin.com/in/mohammad-mahdi-niazi-58a262235/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
