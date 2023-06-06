@@ -400,14 +400,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 69px 23px 25px 10px;
 }
 
 .form_upper {
   width: 327px;
-  height: 216px;
   justify-content: center;
   align-items: center;
+  margin: 69px 23px 0 0;
 }
 
 .form_upper > h2 {
@@ -424,7 +423,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 120px 24px;
+  padding: 50px 24px;
   gap: 58px;
 }
 
@@ -452,7 +451,7 @@ textarea {
   padding: 12px 20px;
 }
 
-button {
+.sub-btn {
   background-color: #ff6b00;
   border: none;
   color: white;
@@ -464,4 +463,52 @@ button {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
+}
+
+.sub-btn:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.sub-btn:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.sub-btn:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+.f_line {
+  width: 327px;
+  height: 1px;
+  background: #dfe1e6;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.f_contact > ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: -70px;
+}
+
+.f_contact > ul li {
+  list-style: none;
+  align-items: center;
+}
+
+.f_contact > ul li a {
+  color: #505f79;
+  list-style: none;
+  padding: 8px;
+  font-size: 20px;
 }
