@@ -4,6 +4,12 @@
   margin: 0;
   padding: 0;
 }
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 /*---- Header Section ---- */
 header{
   display: flex;
@@ -413,15 +419,22 @@ header{
 .form-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  
+  margin-top: 69px;
+  width: 375px;
+  height: 700px;
 }
 
 .form_upper {
+   display: flex;
+  flex-direction: column;
   width: 327px;
   justify-content: center;
+  gap: 58px;
   align-items: center;
-  border: 1px solid red;
+  
 }
 
 .form_upper > h2 {
@@ -432,19 +445,23 @@ header{
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-  margin: 69px 24px 24px 0px;
+  width: 327px;
+  height: 262px;
+  overflow-wrap: break-word;
+
 }
 
 .contact_form {
-  display: flex;
+   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 24px;
-  gap: 58px;
+  padding: 0 24px;
+  gap: 24px;
 }
 
 .contact_form input {
-  width: 100%;
+  width: 327px;
+  height: 48px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -452,11 +469,12 @@ header{
   line-height: 24px;
   border: none;
   border-bottom: 1px solid #dbd8d7;
-  padding: 8px;
+
 }
 
 textarea {
-  width: 100%;
+  width: 327px;
+  height: 114px;
   border: none;
   background-color: #fbf8f7;
   font-family: 'Inter', sans-serif;
@@ -464,7 +482,7 @@ textarea {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  padding: 12px 20px;
+ 
 }
 
 .sub-btn {
@@ -505,6 +523,16 @@ textarea {
 }
 
 .footer {
+  width: 375px; 
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.f_contact{
+  width: 375px;
+  height: 72px;
   display: flex;
   flex-direction: column;
   justify-content: center;
