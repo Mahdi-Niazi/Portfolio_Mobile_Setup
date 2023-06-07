@@ -171,7 +171,7 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 120px 24px 10px;
+  margin-top: 120px;
 }
 .recent_work > h2 {
   width: 327px;
@@ -390,8 +390,8 @@ header{
   line-height: 3.5rem;
   line-height: 3rem;
   font-family: 'inter', 'cursive', Times, serif;
-
 }
+
 .abt-btn {
   display: flex;
   width: 156px;
@@ -399,7 +399,6 @@ header{
   margin: 12px 24px 12px;
   background-color: #ff6b00;
 }
-
 
 .rect {
   display: flex;
@@ -421,14 +420,13 @@ header{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  
   margin-top: 69px;
   width: 375px;
-  height: 700px;
+  height: 710px;
 }
 
 .form_upper {
-   display: flex;
+  display: flex;
   flex-direction: column;
   width: 327px;
   justify-content: center;
@@ -448,7 +446,6 @@ header{
   width: 327px;
   height: 262px;
   overflow-wrap: break-word;
-
 }
 
 .contact_form {
@@ -469,7 +466,12 @@ header{
   line-height: 24px;
   border: none;
   border-bottom: 1px solid #dbd8d7;
+  color: #3c3a39;
+}
 
+.contact_form input::placeholder {
+  padding-left: 16px;
+  color: #979493;
 }
 
 textarea {
@@ -482,7 +484,6 @@ textarea {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
- 
 }
 
 .sub-btn {
@@ -530,6 +531,7 @@ textarea {
   justify-content: center;
   align-items: center;
 }
+
 .f_contact{
   width: 375px;
   height: 72px;
@@ -542,7 +544,6 @@ textarea {
 .f_contact > ul {
   display: flex;
   flex-direction: row;
-  margin-top: -70px;
 }
 
 .f_contact > ul li {
@@ -555,4 +556,10 @@ textarea {
   list-style: none;
   padding: 8px;
   font-size: 20px;
+}
+
+#message::placeholder {
+  color: #3c3a39;
+  padding-left: 12px;
+  padding-top: 12px;
 }
