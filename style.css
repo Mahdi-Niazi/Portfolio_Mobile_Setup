@@ -4,44 +4,50 @@
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-/*---- Header Section ---- */
-header{
+
+/* ---- Header Section ---- */
+header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .header {
-  background-color: #3c3a39;  
+  background-color: #3c3a39;
   width: 375px;
   height: 60px;
 }
-.logo_menu{
+
+.logo_menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
-.logo, 
-.burger{
+
+.logo,
+.burger {
   margin: 10px;
   color: #fff;
 }
+
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
-.intro_container{
+
+.intro_container {
   width: 375px;
   height: 700px;
   background-color: #1c1a19;
@@ -49,28 +55,32 @@ header{
   background-repeat: no-repeat;
   background-position: bottom right;
 }
-.name{
+
+.name {
   display: flex;
   justify-content: center;
   margin: 120px 24px 10px;
 }
-.name > h1{
+
+.name > h1 {
   width: 327px;
   height: 124px;
   color: #ff6b00;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
 }
+
 .slogan {
   display: flex;
   justify-content: center;
   margin: 12px 24px 10px;
 }
-.slogan > h2{
+
+.slogan > h2 {
   width: 327px;
   height: 27px;
   font-family: 'Roboto', sans-serif;
@@ -80,7 +90,8 @@ header{
   line-height: 32px;
   color: #fff;
 }
-.desc{
+
+.desc {
   display: flex;
   justify-content: center;
   margin: 12px 24px 10px;
@@ -132,6 +143,16 @@ header{
   align-items: center;
   padding: 0;
 }
+
+.lang-menu li {
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+  line-height: 3.5rem;
+  line-height: 3rem;
+  font-family: 'inter', 'cursive', Times, serif;
+}
+
 .contact > ul {
   display: flex;
 }
@@ -159,20 +180,23 @@ header{
   padding: 8px;
 }
 
-/* ---- My Work --*/
+/* ---- My Work -- */
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.recent_work{
- display: flex;
+
+.recent_work {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 120px;
+  width: 375px;
 }
+
 .recent_work > h2 {
   width: 327px;
   height: 83px;
@@ -187,7 +211,7 @@ header{
 
 .line {
   width: 327px;
-  height: 0px;
+  height: 0;
   margin: 10px 24px 80px;
 }
 
@@ -333,17 +357,20 @@ header{
   justify-content: center;
   background-color: #ff6b00;
 }
-.abt-wrapper{
+
+.abt-wrapper {
   background: #1c1a19;
   color: #fff;
   width: 375px;
 }
-.about-me{
+
+.about-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
+
 .text-about {
   background-image: url(assets/about-me.png);
   background-repeat: no-repeat;
@@ -362,7 +389,6 @@ header{
   margin: 120px 24px 24px;
 }
 
-
 .text-about > p {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -373,23 +399,16 @@ header{
   color: #f4f5f7;
   margin: 24px;
 }
-.abt-hr{
+
+.abt-hr {
   width: 327px;
-   margin: 12px 24px 24px;
-}
-.lang-menu {
-  background-color: #1c1a19;
-  color:#f4f1f0;
-  margin: 4rem auto;
+  margin: 12px 24px 24px;
 }
 
-.lang-menu li {
-  list-style: none;
-  font-size: 20px;
-  text-align: center;
-  line-height: 3.5rem;
-  line-height: 3rem;
-  font-family: 'inter', 'cursive', Times, serif;
+.lang-menu {
+  background-color: #1c1a19;
+  color: #f4f1f0;
+  margin: 4rem auto;
 }
 
 .abt-btn {
@@ -432,7 +451,6 @@ header{
   justify-content: center;
   gap: 58px;
   align-items: center;
-  
 }
 
 .form_upper > h2 {
@@ -449,7 +467,7 @@ header{
 }
 
 .contact_form {
-   display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 24px;
@@ -524,7 +542,7 @@ textarea {
 }
 
 .footer {
-  width: 375px; 
+  width: 375px;
   height: 72px;
   display: flex;
   flex-direction: column;
@@ -532,7 +550,7 @@ textarea {
   align-items: center;
 }
 
-.f_contact{
+.f_contact {
   width: 375px;
   height: 72px;
   display: flex;
