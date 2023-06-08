@@ -1,0 +1,104 @@
+.header {
+    width:1440px;
+    height: 72px;
+    
+}
+.logo{
+    margin-left: 154px;
+}
+.burger > i{
+    display: none;
+}
+.nav-list{
+    display: flex;
+    margin-right:151px;
+}
+.nav-list li{
+  list-style: none;
+}
+.nav-list li a{
+    padding:10px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+.intro_container{
+    display: flex;
+    width: 1440px;
+    height: 870px;
+    background-image: url(assets/Illustration-header.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 566px;
+    height: 739px;
+    left: 143px;
+    top: 72px;
+    border: 1px solid red; 
+}
+.name > h1{
+    width: 566px;
+    height: 160px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.slogan > h2{
+    width: 566px;
+    height: 24px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.desc > p{
+    width: 566px;
+    height: 123px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 20px;
+    height: 98.96px;
+    left: 250px;
+    top: 394px;
+}
+.contact ul{
+    display: flex;
+    flex-direction: column;
+}
+.contact ul li{
+    padding: 10px;
+}

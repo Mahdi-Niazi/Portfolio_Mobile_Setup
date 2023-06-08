@@ -11,7 +11,6 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
 /* ---- Header Section ---- */
 header {
   display: flex;
@@ -38,6 +37,9 @@ header {
 .burger {
   margin: 10px;
   color: #fff;
+}
+.nav-list{
+  display: none;
 }
 
 .intro {
