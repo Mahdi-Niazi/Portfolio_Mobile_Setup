@@ -590,11 +590,7 @@ textarea::placeholder {
   font-size: 20px;
 }
 
-.animation:hover{
-    transform: scale(1.40);
-    transition: ease-out 0.3;    
+.animation:hover {
+  transform: scale(1.4);
+  transition: ease-out 0.3;    
 }
-
-
-
-
