@@ -589,3 +589,12 @@ textarea::placeholder {
   padding: 8px;
   font-size: 20px;
 }
+
+.animation:hover{
+    transform: scale(1.40);
+    transition: ease-out 0.3;    
+}
+
+
+
+
