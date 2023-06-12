@@ -115,7 +115,7 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ##  Live Demo <a name="live-demo"></a>
-    <a href="https://mahdi-niazi.github.io/Portfolio_Mobile_Setup/">Portfolio</a>
+    [Portifolio]([https://www.linkedin.com/in/mohammad-mahdi-niazi-58a262235/](https://mahdi-niazi.github.io/Portfolio_Mobile_Setup/")
 
 ## 🤝 Contributing <a name="contributing"></a>
 
