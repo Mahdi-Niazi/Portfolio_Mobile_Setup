@@ -628,7 +628,7 @@ textarea::placeholder {
   }
 
   .hamburger {
-    display: flex;
+    display: none;
     cursor: pointer;
   }
 
