@@ -24,7 +24,7 @@
   - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
-- [    Live Demo ](#live-demo)
+- [ Live Demo](#live-demo)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -113,7 +113,6 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 -  **[Dynamic the website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ##  Live Demo <a name="live-demo"></a>
 - [Portifolio](https://mahdi-niazi.github.io/Portfolio_Mobile_Setup/)
 
