@@ -114,9 +114,6 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Live Demo
-
-- [Portfolio](mahdi-niazi)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
