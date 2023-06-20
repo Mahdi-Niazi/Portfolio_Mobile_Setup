@@ -617,11 +617,6 @@ textarea::placeholder {
   font-size: 20px;
 }
 
-.animation:hover {
-  transform: scale(1.4);
-  transition: ease-out 0.3;
-}
-
 @media screen and (min-width: 768px) {
   .nav {
     display: flex;
@@ -633,7 +628,7 @@ textarea::placeholder {
   }
 
   .hamburger {
-    display: none;
+    display: flex;
     cursor: pointer;
   }
 

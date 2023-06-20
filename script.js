@@ -12,3 +12,13 @@ humberger.addEventListener("click", () => {
     bars.classList.toggle("active");
     xmark.classList.toggle("active");
 });
+
+document.querySelectorAll('.nav-item').forEach(n =>
+    n.addEventListener('click', () => {
+        humberger.classList.remove("active");
+        navMenu.classList.remove("active");
+        logo.classList.remove('active');
+        envelope.classList.remove('active');
+        bars.classList.remove('active');
+        xmark.classList.remove('active');
+    }))
