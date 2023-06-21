@@ -198,10 +198,5 @@ document.querySelectorAll('#project2').forEach((p) => p.addEventListener('click'
     document.querySelector('#source').href = post_details[1].source;
 }));
 
-const closeButton = document.querySelector('.close');
-closeButton.addEventListener('click', () => {
-  popup.classList.remove('active');
-  overlay.classList.remove('active');
-});
 
 
