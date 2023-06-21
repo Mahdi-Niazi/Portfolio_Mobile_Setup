@@ -34,7 +34,7 @@ const post_details = [
         link2: 'HTML',
         link3: 'BootStrap',
         live: '#',
-        source: '#'
+        source: '#',
     },
     {
         title: 'Data Dashboard <br>Healthcare',
@@ -45,7 +45,7 @@ const post_details = [
         link3: 'BootStrap',
         live: '#',
         source: '#',
-        img: 'assets/card4.png'
+        img: 'assets/card4.png',
     },
     {
         title: 'Data Dashboard <br>Healthcare',
@@ -56,7 +56,7 @@ const post_details = [
         link3: 'BootStrap',
         live: '#',
         source: '#',
-        img: 'assets/card2.png'
+        img: 'assets/card2.png',
     },
     {
         title: 'Website Portfolio',
@@ -67,7 +67,7 @@ const post_details = [
         link3: 'BootStrap',
         live: '#',
         source: '#',
-        img: 'assets/card3.png'
+        img: 'assets/card3.png',
     },
     {
         title: 'Profesional Art Printing Data More',
@@ -78,7 +78,7 @@ const post_details = [
         link3: 'BootStrap',
         live: '#',
         source: '#',
-        img: 'assets/card4.png'
+        img: 'assets/card4.png',
     },
     {
         title: 'Data Dashboard <br>Healthcare',
@@ -89,7 +89,7 @@ const post_details = [
         link3: 'BootStrap',
         live: '#',
         source: '#',
-        img: 'assets/card5.png'
+        img: 'assets/card5.png',
     },
     {
         title: 'Website Portfolio',
@@ -100,7 +100,7 @@ const post_details = [
         link3: 'BootStrap',
         live: '#',
         source: '#',
-        img: 'assets/card6.png'
+        img: 'assets/card6.png',
     },
 ];
 
@@ -129,7 +129,7 @@ const card_details = document.querySelector('.project-card');
 for (let i = 1; i < post_details.length; i += 1){
     const cards = `
             <div class="card ${post_details[i].Image}">
-                <h3>${post_details[i].title}</h3>
+                <h1>${post_details[i].title}</h1>
                 <p>
                     ${post_details[i].description}
                 </p>
@@ -144,30 +144,34 @@ for (let i = 1; i < post_details.length; i += 1){
     card_details.innerHTML += cards; 
 }
 
-const popup = document.querySelector('.popup');
+const popup = document.querySelector('.popup-container');
 
  popup.innerHTML += `
         <div class="overlay"></div>
-        <div class="popup-items">
-           <div class="title-xmark">
-                <h3 class="pop-title"></h3>
-                <div class="close"><i class="fa-solid fa-xmark"></i></div>
-           </div>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>BootStrap</li>
-            </ul>
-            <div class="descrip-btns">
-                <img src="" alt="Placeholder" class="pop-img">
-                <div class="p-content">
-                    <p class="pop-txt">
-                        
-                    </p>
-                    <a class="btn-orange pop-btn" id="live" href="">See Live  <i class="fa-solid fa-globe"></i></a>
-                    <a class="btn-orange pop-up-btn pop-btn" id="source" href="">See Source <i class="fa-brands fa-github"></i></a>
-                </div> 
-             </div>
+        <div class="popup">
+            <div class="popup-contain">
+                <div class="row justify-content-space-between">
+                    <h2 class="pop-title"></h2>
+                    <div class="close"><i class="fa-solid fa-xmark"></i></div>
+                </div>
+                <div class="row links">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BootStrap</li>
+                    </ul>
+                </div>
+                <div class="popup-content">
+                    <img src="" alt="Placeholder" class="pop-img">
+                    <div class="row column">
+                        <p class="pop-txt"></p>
+                        <div class="btn-div">
+                            <a class="btn-orange pop-btn" id="live" href="">See Live  <i class="fa-solid fa-globe"></i></a>
+                            <a class="btn-orange pop-btn" id="source" href="">See Source <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     `;
 
@@ -189,7 +193,7 @@ project1.addEventListener('click', () => {
     document.querySelector('#source').href = post_details[0].source;
 });
 
-document.querySelectorAll('#project2').forEach((p) => p.addEventListener('click', () => {
+document.querySelectorAll('#project2').forEach((popup_contain) => popup_contain.addEventListener('click', () => {
     popupshow();
     document.querySelector('.pop-title').innerHTML = post_details[1].title;
     document.querySelector('.pop-img').src = post_details[1].img;
@@ -198,5 +202,9 @@ document.querySelectorAll('#project2').forEach((p) => p.addEventListener('click'
     document.querySelector('#source').href = post_details[1].source;
 }));
 
-
+const closeButton = document.querySelector('.close');
+closeButton.addEventListener('click', () => {
+  popup.classList.remove('active');
+  overlay.classList.remove('active');
+});
 
