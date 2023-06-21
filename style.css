@@ -684,6 +684,9 @@ textarea::placeholder {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
+  width: 100%;
+  height: 82px;
+  margin-bottom: 12px;
 }
 
 .pop-txt {
@@ -711,11 +714,6 @@ textarea::placeholder {
 
 .popup-container.active .popup-contain {
   transform: translate(-50%, -50%) scale(1);
-}
-.pop-title{
-  width: 100%;
-  height: 82px;
-  margin-bottom: 12px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1370,9 +1368,11 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
   }
-  .links{
+
+  .links {
     margin-top: 24px;
   }
+
   .links ul li {
     list-style: none;
     border: 1px solid #8993a4;
