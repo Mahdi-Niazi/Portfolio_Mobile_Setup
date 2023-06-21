@@ -198,16 +198,7 @@ project1.addEventListener('click', () => {
     document.querySelector('#live').href = post_details[0].live;
     document.querySelector('#source').href = post_details[0].source;
 });
-/*
-document.querySelectorAll('#project2').forEach((popup_contain) => popup_contain.addEventListener('click', () => {
-    popupshow();
-    document.querySelector('.pop-title').innerHTML = post_details[1].title;
-    document.querySelector('.pop-img').src = post_details[1].img;
-    document.querySelector('.pop-txt').innerHTML = post_details[1].description;
-    document.querySelector('#live').href = post_details[1].live;
-    document.querySelector('#source').href = post_details[1].source;
-}));
-*/
+
 const pro1 = document.querySelector('#pro1');
 
 pro1.addEventListener('click', () => {
