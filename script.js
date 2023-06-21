@@ -207,4 +207,8 @@ closeButton.addEventListener('click', () => {
   popup.classList.remove('active');
   overlay.classList.remove('active');
 });
+<<<<<<< HEAD
+=======
+
+>>>>>>> d1aebe7a88763f3d7cc56ff2010a57f8f923e93d
 
