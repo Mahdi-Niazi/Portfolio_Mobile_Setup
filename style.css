@@ -631,7 +631,7 @@ textarea::placeholder {
 }
 
 .popup-contain {
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   padding: 24px;
   position: fixed;
@@ -641,6 +641,7 @@ textarea::placeholder {
   z-index: 2;
   background-color: #fff;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 .row {
@@ -710,6 +711,11 @@ textarea::placeholder {
 
 .popup-container.active .popup-contain {
   transform: translate(-50%, -50%) scale(1);
+}
+.pop-title{
+  width: 100%;
+  height: 82px;
+  margin-bottom: 12px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1363,5 +1369,14 @@ textarea::placeholder {
   .popup-content {
     display: flex;
     flex-direction: column;
+  }
+  .links{
+    margin-top: 24px;
+  }
+  .links ul li {
+    list-style: none;
+    border: 1px solid #8993a4;
+    padding: 12px 10px;
+    margin: 0 12px;
   }
 }

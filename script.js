@@ -46,6 +46,7 @@ const post_details = [
         live: '#',
         source: '#',
         img: 'assets/card4.png',
+        btn_id: 'pro1',
     },
     {
         title: 'Data Dashboard <br>Healthcare',
@@ -57,6 +58,7 @@ const post_details = [
         live: '#',
         source: '#',
         img: 'assets/card2.png',
+        btn_id: 'pro2',
     },
     {
         title: 'Website Portfolio',
@@ -68,6 +70,7 @@ const post_details = [
         live: '#',
         source: '#',
         img: 'assets/card3.png',
+        btn_id: 'pro3',
     },
     {
         title: 'Profesional Art Printing Data More',
@@ -79,6 +82,7 @@ const post_details = [
         live: '#',
         source: '#',
         img: 'assets/card4.png',
+        btn_id: 'pro4',
     },
     {
         title: 'Data Dashboard <br>Healthcare',
@@ -89,7 +93,8 @@ const post_details = [
         link3: 'BootStrap',
         live: '#',
         source: '#',
-        img: 'assets/card5.png',
+        img: 'assets/card2.png',
+        btn_id: 'pro5',
     },
     {
         title: 'Website Portfolio',
@@ -100,7 +105,8 @@ const post_details = [
         link3: 'BootStrap',
         live: '#',
         source: '#',
-        img: 'assets/card6.png',
+        img: 'assets/card3.png',
+        btn_id: 'pro6',
     },
 ];
 
@@ -138,7 +144,7 @@ for (let i = 1; i < post_details.length; i += 1){
                     <li>${post_details[i].link2}</li>
                     <li>${post_details[i].link3}</li>
                 </ul>
-                <button class="btn-orange card-btn" id="project2" type="button">See Project</button>       
+                <button class="btn-orange card-btn" id="${post_details[i].btn_id}" type="button">See Project</button>       
             </div>
     `;
     card_details.innerHTML += cards; 
@@ -192,7 +198,7 @@ project1.addEventListener('click', () => {
     document.querySelector('#live').href = post_details[0].live;
     document.querySelector('#source').href = post_details[0].source;
 });
-
+/*
 document.querySelectorAll('#project2').forEach((popup_contain) => popup_contain.addEventListener('click', () => {
     popupshow();
     document.querySelector('.pop-title').innerHTML = post_details[1].title;
@@ -201,6 +207,72 @@ document.querySelectorAll('#project2').forEach((popup_contain) => popup_contain.
     document.querySelector('#live').href = post_details[1].live;
     document.querySelector('#source').href = post_details[1].source;
 }));
+*/
+const pro1 = document.querySelector('#pro1');
+
+pro1.addEventListener('click', () => {
+    popupshow();
+    document.querySelector('.pop-title').innerHTML = post_details[1].title;
+    document.querySelector('.pop-img').src = post_details[1].img;
+    document.querySelector('.pop-txt').innerHTML = post_details[1].description;
+    document.querySelector('#live').href = post_details[1].live;
+    document.querySelector('#source').href = post_details[1].source;
+});
+
+const pro2 = document.querySelector('#pro2');
+
+pro2.addEventListener('click', () => {
+    popupshow();
+    document.querySelector('.pop-title').innerHTML = post_details[2].title;
+    document.querySelector('.pop-img').src = post_details[2].img;
+    document.querySelector('.pop-txt').innerHTML = post_details[2].description;
+    document.querySelector('#live').href = post_details[2].live;
+    document.querySelector('#source').href = post_details[2].source;
+});
+
+const pro3 = document.querySelector('#pro3');
+
+pro3.addEventListener('click', () => {
+    popupshow();
+    document.querySelector('.pop-title').innerHTML = post_details[3].title;
+    document.querySelector('.pop-img').src = post_details[3].img;
+    document.querySelector('.pop-txt').innerHTML = post_details[3].description;
+    document.querySelector('#live').href = post_details[3].live;
+    document.querySelector('#source').href = post_details[3].source;
+});
+
+const pro4 = document.querySelector('#pro4');
+
+pro4.addEventListener('click', () => {
+    popupshow();
+    document.querySelector('.pop-title').innerHTML = post_details[4].title;
+    document.querySelector('.pop-img').src = post_details[4].img;
+    document.querySelector('.pop-txt').innerHTML = post_details[4].description;
+    document.querySelector('#live').href = post_details[4].live;
+    document.querySelector('#source').href = post_details[4].source;
+});
+
+const pro5 = document.querySelector('#pro5');
+
+pro5.addEventListener('click', () => {
+    popupshow();
+    document.querySelector('.pop-title').innerHTML = post_details[5].title;
+    document.querySelector('.pop-img').src = post_details[5].img;
+    document.querySelector('.pop-txt').innerHTML = post_details[5].description;
+    document.querySelector('#live').href = post_details[5].live;
+    document.querySelector('#source').href = post_details[5].source;
+});
+
+const pro6 = document.querySelector('#pro6');
+
+pro6.addEventListener('click', () => {
+    popupshow();
+    document.querySelector('.pop-title').innerHTML = post_details[6].title;
+    document.querySelector('.pop-img').src = post_details[6].img;
+    document.querySelector('.pop-txt').innerHTML = post_details[6].description;
+    document.querySelector('#live').href = post_details[6].live;
+    document.querySelector('#source').href = post_details[6].source;
+});
 
 const closeButton = document.querySelector('.close');
 closeButton.addEventListener('click', () => {
