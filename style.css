@@ -1376,11 +1376,13 @@ textarea::placeholder {
     color: #fff;
     font-size: 20px;
   }
+
   .popup-contain {
     width: 80%;
     height: fit-content;
   }
-  .pop-img{
+
+  .pop-img {
     width: 70%;
     height: 30%;
     margin: 0 auto;
