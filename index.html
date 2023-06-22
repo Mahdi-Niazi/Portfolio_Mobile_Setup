@@ -123,12 +123,13 @@
                     get in touch.
                 </p>
             <div class="contact-form">
-                <form action="https://formspree.io/f/xeqwblrq" method="POST">
+                <form action="https://formspree.io/f/xeqwblrq" method="POST" class="contact-us">
                     <div class="form-input">
                         <input type="text" name="Name" id="Name" placeholder="First Name" maxlength="30" required>
                         <input type="text" name="lastName" id="lastName" placeholder="last Name" maxlength="30" required>
                     </div>
                      <input type="email" name="email" id="email" placeholder="Email" required>
+                     <div class="div-error"><span class="error"></span></div>
                     <textarea name="message" id="message" rows="10" cols="20" maxlength="500" placeholder="Write me something..." required></textarea>
                     <button type="submit" class="btn-orange form-btn">Get in touch</button>
                 </form>
