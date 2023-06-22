@@ -641,7 +641,6 @@ textarea::placeholder {
   z-index: 2;
   background-color: #fff;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .row {
@@ -703,9 +702,11 @@ textarea::placeholder {
 }
 
 .pop-btn {
-  width: 120px;
+  width: 80px;
   height: 20px;
   text-decoration: none;
+  font-size: 11px;
+  padding:11px;
 }
 
 .popup-container.active .overlay {
@@ -749,6 +750,18 @@ textarea::placeholder {
     font-size: 15px;
     line-height: 20px;
   }
+  .popup-contain {
+  width: 50%;
+  margin: 0 auto;
+  padding: 24px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  z-index: 2;
+  background-color: #fff;
+  box-sizing: border-box;
+}
 
   /* ----- Introduction Section ------ */
 
@@ -1364,9 +1377,32 @@ textarea::placeholder {
     font-size: 20px;
   }
 
+  .popup-contain {
+  width: 95%;
+  margin: 0 auto;
+  padding: 24px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  z-index: 2;
+  background-color: #fff;
+  box-sizing: border-box;
+  }
+
+  .pop-btn{
+    width: 85px;
+    height: 20px;
+    font-size: 12px;
+    padding: 7px;
+  }
+
   .popup-content {
     display: flex;
     flex-direction: column;
+  }
+  .pop-title{
+    height: 107px;
   }
 
   .links {
