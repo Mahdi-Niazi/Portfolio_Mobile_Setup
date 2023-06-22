@@ -285,5 +285,8 @@ form.addEventListener('submit', (event) => {
         error.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i>  Please make sure you enter your email in lowercase!';
         event.preventDefault();
     } 
+    else {
+        error.innerHTML = '';
+    }
 });
 
