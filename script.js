@@ -271,3 +271,21 @@ closeButton.addEventListener('click', () => {
   overlay.classList.remove('active');
 });
 
+const email = document.querySelector('#email');
+const form = document.querySelector('.contact-us');
+const error = email.nextElementSibling;
+
+const inputPatern = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+
+form.addEventListener('submit', (event) => {
+    const valid = inputPatern.test(email.value);
+    if (!valid) {
+        error.style.height = "50px";
+        error.style.padding = "10px";
+        error.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i>  Please make sure you enter your email in lowercase!';
+        event.preventDefault();
+    } else {
+        error.innerHTML = '';
+    }
+});
+
