@@ -16,10 +16,10 @@ humberger.addEventListener("click", () => {
 
 document.querySelectorAll('.nav-item').forEach(n =>
     n.addEventListener('click', () => {
-        humberger.classList.remove("active");
+        hamberger.classList.remove("ative");
         navMenu.classList.remove("active");
         logo.classList.remove('active');
-        envelope.classList.remove('active');
+        envolope.classList.remove('ative');
         bars.classList.remove('active');
         xmark.classList.remove('active');
     }));
