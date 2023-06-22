@@ -717,13 +717,13 @@ textarea::placeholder {
   transform: translate(-50%, -50%) scale(1);
 }
 
-.div-error{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-   background-color: rgba(249, 217, 143, 0.968);
-   color: black;
+.div-error {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(249, 217, 143, 0.968);
+  color: black;
 }
 
 @media screen and (min-width: 768px) {
