@@ -296,11 +296,6 @@ form.addEventListener('submit', (event) => {
 
 
 
-
-
-
-
-
 const form_contact = document.querySelector('myform');
 
 const inputFields = document.querySelectorAll("input, textarea");
@@ -321,10 +316,5 @@ function loadData() {
         }
     }
 }
-
-inputFields.forEach((inputField) => {
-    inputField.addEventListener("change", save);
-});
-
 
 loadData();
