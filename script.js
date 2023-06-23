@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* --- Menu Responsive ---- */
 const humberger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-list');
@@ -313,7 +312,7 @@ inputFields.forEach((inputField) => {
 });
 
 loadData();
-=======
+
 /* --- Menu Responsive ---- */
 const humberger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-list");
@@ -636,4 +635,4 @@ inputFields.forEach((inputField) => {
     inputField.addEventListener("change", save);
 });
 loadData();
->>>>>>> e99175cc21fb14bc9c0bf200cd09464c6b779001
+
