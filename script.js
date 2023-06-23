@@ -316,5 +316,7 @@ function loadData() {
         }
     }
 }
-
+inputFields.forEach((inputField) => {
+    inputField.addEventListener("change", save);
+});
 loadData();
