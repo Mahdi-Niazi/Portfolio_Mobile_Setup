@@ -271,6 +271,9 @@ closeButton.addEventListener('click', () => {
   overlay.classList.remove('active');
 });
 
+
+
+
 const email = document.querySelector('#email');
 const form = document.querySelector('.contact-us');
 const error = email.nextElementSibling;
@@ -290,3 +293,38 @@ form.addEventListener('submit', (event) => {
     }
 });
 
+
+
+
+
+
+
+
+
+const form_contact = document.querySelector('myform');
+
+const inputFields = document.querySelectorAll("input, textarea");
+
+function save() {
+    const data = {};
+    for (const inputField of inputFields) {
+        data[inputField.name] = inputField.value;
+    }
+    localStorage.setItem("data", JSON.stringify(data));
+}
+
+function loadData() {
+    const data = JSON.parse(localStorage.getItem("data"));
+    if (data) {
+        for (const inputField of inputFields) {
+            inputField.value = data[inputField.name];
+        }
+    }
+}
+
+inputFields.forEach((inputField) => {
+    inputField.addEventListener("change", save);
+});
+
+
+loadData();
