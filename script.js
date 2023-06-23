@@ -287,28 +287,43 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-const inputFields = document.querySelectorAll('input, textarea');
+const firstName = document.querySelector('#Name');
+const lastName = document.querySelector('#lastName');
+const emailInput = document.getElementById('email');
+const msg = document.querySelector('#message');
 
-function save() {
-  const data = {};
-  // eslint-disable-next-line no-restricted-syntax
-  for (const inputField of inputFields) {
-    data[inputField.name] = inputField.value;
-  }
-  localStorage.setItem('data', JSON.stringify(data));
+let formData = {
+  FirstName: '',
+  LastName: '',
+  Email: '',
+  Messages: '',
+};
+
+const formInputs = (data) => {
+  firstName.value = data.FirstName;
+  lastName.value = data.LastName;
+  emailInput.value = data.Email;
+  msg.value = data.Messages;
+};
+
+if (localStorage.getItem('formData')) {
+  formData = JSON.parse(localStorage.getItem('formData'));
+  formInputs(formData);
 }
 
-function loadData() {
-  const data = JSON.parse(localStorage.getItem('data'));
-  if (data) {
-    // eslint-disable-next-line no-restricted-syntax
-    for (const inputField of inputFields) {
-      inputField.value = data[inputField.name];
-    }
-  }
-}
-inputFields.forEach((inputField) => {
-  inputField.addEventListener('change', save);
+firstName.addEventListener('input', () => {
+  formData.FirstName = firstName.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
 });
-
-loadData();
+lastName.addEventListener('input', () => {
+  formData.LastName = lastName.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+emailInput.addEventListener('input', () => {
+  formData.Email = emailInput.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+msg.addEventListener('input', () => {
+  formData.Messages = msg.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
