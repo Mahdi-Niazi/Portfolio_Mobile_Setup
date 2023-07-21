@@ -26,18 +26,20 @@ document.querySelectorAll('.nav-item').forEach((n) => n.addEventListener('click'
 /* --- Pop up Section -- */
 const postDetails = [
   {
-    title: 'Project Multi post',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    img: 'assets/ImgPlaceholder2.png',
+    title: 'Today Todo List Project',
+    description:
+      'This website is registering a list of tasks that we need to do it daily, weekly and monthly.',
+    img: 'assets/Todo-list-project.png',
     link1: 'CSS',
     link2: 'HTML',
-    link3: 'BootStrap',
-    live: '#',
-    source: '#',
+    link3: 'JavaScript',
+    live: 'https://mahdi-niazi.github.io/todo-list/dist/index.html',
+    source: 'https://github.com/Mahdi-Niazi/todo-list',
   },
   {
     title: 'Data Dashboard <br>Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
     Image: 'card4',
     link1: 'CSS',
     link2: 'HTML',
@@ -49,7 +51,8 @@ const postDetails = [
   },
   {
     title: 'Data Dashboard <br>Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
     Image: 'card2',
     link1: 'CSS',
     link2: 'HTML',
@@ -61,7 +64,8 @@ const postDetails = [
   },
   {
     title: 'Website Portfolio',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
     Image: 'card3',
     link1: 'CSS',
     link2: 'HTML',
@@ -73,7 +77,8 @@ const postDetails = [
   },
   {
     title: 'Profesional Art Printing Data More',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
     Image: 'card4',
     link1: 'CSS',
     link2: 'HTML',
@@ -85,7 +90,8 @@ const postDetails = [
   },
   {
     title: 'Data Dashboard <br>Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
     Image: 'card5',
     link1: 'CSS',
     link2: 'HTML',
@@ -97,7 +103,8 @@ const postDetails = [
   },
   {
     title: 'Website Portfolio',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
     Image: 'card6',
     link1: 'CSS',
     link2: 'HTML',
@@ -163,7 +170,7 @@ popup.innerHTML += `
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>BootStrap</li>
+                        <li>JavaScript</li>
                     </ul>
                 </div>
                 <div class="popup-content">
